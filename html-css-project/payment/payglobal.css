@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-sf-pro-display: "SF Pro Display";
+
+  /* font sizes */
+  --font-size-smi: 13px;
+
+  /* Colors */
+  --mono-white: #fff;
+  --grey-border: #e0e0e0;
+  --grey-placeholder: #a5acb8;
+  --grey-labels: #4f5b76;
+  --black: #000;
+  --stripe-blue: #0570de;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-xs: 12px;
+
+  /* border radiuses */
+  --br-7xs: 6px;
+
+  /* Effects */
+  --inputs: 0px 2px 4px rgba(0, 0, 0, 0.07);
+}

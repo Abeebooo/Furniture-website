@@ -1,0 +1,244 @@
+.login-child {
+  position: absolute;
+  top: calc(50% - 262px);
+  left: calc(50% + 136px);
+  border-radius: 46px;
+  background-color: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(13.6px);
+  border: 1px solid rgba(255, 255, 255, 0.52);
+  box-sizing: border-box;
+  width: 412px;
+  height: 524px;
+}
+.with-others {
+  color: var(--color-dimgray);
+}
+.login-with-others-container {
+  position: absolute;
+  top: 0;
+  left: 113px;
+}
+.subtract-icon {
+  position: relative;
+  width: 364px;
+  height: 1px;
+}
+.login-with-others-parent {
+  position: absolute;
+  top: 301px;
+  left: 0;
+  width: 364px;
+  height: 24px;
+  font-size: var(--font-size-base);
+}
+.login1 {
+  position: absolute;
+  top: 0;
+  left: 135px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+.how-to-i {
+  position: absolute;
+  top: 33px;
+  left: 97px;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.group-child {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-brown-100);
+  width: 364px;
+  height: 52px;
+}
+
+
+.group-child::placeholder {
+  color: rgb(238, 254, 255); 
+}
+.frame-icon,
+.password {
+  position: absolute;
+  top: 17px;
+  left: 48px;
+}
+.frame-icon {
+  top: 14px;
+  left: 320px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.group-inner,
+.rectangle-group,
+.rectangle-parent {
+  
+  position: absolute;
+  top: 149px;
+  left: 0;
+  width: 364px;
+  height: 52px;
+}
+.group-inner,
+.rectangle-group {
+  top: 79px;
+}
+.group-inner {
+  top: 0;
+  border-radius: var(--br-base);
+  background-color: rgba(114, 32, 32, 0.74);
+  box-shadow: 0 8px 21px rgba(0, 0, 0, 0.16);
+  width: 124px;
+}
+.login-now {
+  position: absolute;
+  top: 17px;
+  left: 30px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 225px;
+  left: 120px;
+  width: 124px;
+  height: 52px;
+  color: var(--color-white);
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  border: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 364px;
+  height: 52px;
+}
+.google-1-icon,
+.login-with-google-container {
+  position: absolute;
+  top: 6px;
+  left: 38px;
+}
+.google-1-icon {
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.group-div,
+.login-with-google-parent {
+  position: absolute;
+  top: 11px;
+  left: 110px;
+  width: 144px;
+  height: 30px;
+}
+.group-div {
+  top: 0;
+  left: 0;
+  width: 364px;
+  height: 52px;
+}
+.login-with-facebook-parent {
+  position: absolute;
+  top: 11px;
+  left: 101px;
+  width: 162px;
+  height: 30px;
+}
+.group-container,
+.group-parent,
+.rectangle-parent1 {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  width: 364px;
+  height: 52px;
+}
+.group-container,
+.group-parent {
+  top: 349px;
+  height: 120px;
+}
+.group-parent {
+  top: 149px;
+  left: 159px;
+  height: 469px;
+}
+.very-good {
+  margin: 0;
+}
+.very-good-works-container {
+  position: absolute;
+  top: 148px;
+  left: 850px;
+  font-size: 32px;
+  line-height: 46px;
+  color: var(--color-white);
+}
+.sign-up {
+  position: absolute;
+  top: 658px;
+  left: 309px;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  display: inline-block;
+  width: 255px;
+  height: 47px;
+}
+.login-item {
+  position: absolute;
+  top: 642px;
+  left: 272px;
+  background-color: var(--color-brown-100);
+  width: 144px;
+  height: 51px;
+}
+.website-feature-image-job-vaca {
+  position: absolute;
+  top: 298px;
+  left: 564px;
+  width: 1400px;
+  height: 860px;
+}
+.frame-child,
+.images-1 {
+  position: absolute;
+  top: 403px;
+  left: 768px;
+  width: 268px;
+  height: 188px;
+}
+.frame-child {
+  top: 10px;
+  left: 20px;
+  border-radius: 71px;
+  width: 755px;
+  height: 1285px;
+  object-fit: cover;
+}
+.login-inner {
+  position: absolute;
+  top: -10px;
+  left: 601px;
+  width: 775px;
+  height: 788px;
+}
+.login {
+  position: relative;
+  border-radius: 24px;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}

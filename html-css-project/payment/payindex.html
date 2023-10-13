@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="payglobal.css" />
+    <link rel="stylesheet" href="payindex.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Display:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="content">
+        <div class="forms">
+          <form action="process_form.php" method="post">
+
+          <div class="toggle-list">
+            <div class="toggle">
+              <img class="iconcard" alt="" src="./public/iconcard.svg" />
+
+              <div class="label">Card</div>
+            </div>
+            <div class="toggle1"></div>
+            <div class="toggle1"></div>
+            <div class="input">
+              <img class="ellipsis-icon" alt="" src="./public/ellipsis.svg" />
+            </div>
+          </div>
+          <div class="inputs">
+            <div class="label1">Card number</div>
+            <div class="input1">
+              <div class="label2">
+                <div class="label3">
+                  <input type="text" class="label" placeholder="1234 1234 1234 1234">
+
+                </div>
+                <div class="banks">
+                  <img
+                    class="bankvisa-icon"
+                    alt=""
+                    src="./public/bankvisa.svg"
+                  />
+
+                  <img
+                    class="bankvisa-icon"
+                    alt=""
+                    src="./public/bankmastercard.svg"
+                  />
+
+                  <img
+                    class="bankvisa-icon"
+                    alt=""
+                    src="./public/bankamex.svg"
+                  />
+
+                  <img
+                    class="bankvisa-icon"
+                    alt=""
+                    src="./public/bankdiscover.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inputs-parent">
+            <div class="inputs1">
+              <div class="label1">Expiry</div>
+              <div class="input2">
+                <div class="label6">
+                  <input type="text" class="label" placeholder="MM / YY">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="inputs1">
+              <div class="label1">CVC</div>
+              <div class="input2">
+                <div class="label6">
+                  <input type="text" class="label" placeholder="CVC">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inputs-parent">
+            <div class="inputs1">
+              <div class="label1">Country</div>
+              <div class="input4">
+                
+                <select id="country" class="label">
+                  <option value="United States">United States</option>
+                  <option value="Canada">Canada</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <!-- Add more options as needed -->
+                </select>
+               
+              </div>
+              
+            </div>
+            <div class="inputs1">
+              <div class="label1">Postal code</div>
+              <div class="input2">
+                <div class="label6">
+                  <input type="text" class="label" placeholder="9021">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="paytm">paytm</div>
+        <img class="download-1-icon" alt="" src="./public/download-1@2x.png" />
+
+        <img class="download-2-icon" alt="" src="./public/download-2@2x.png" />
+
+        <div class="googlepay">googlepay</div>
+        <div class="images-1"></div>
+        <button type="submit" class="login-now">Submit</button>
+      </form>
+      </div>
+    </div>
+  </body>
+</html>
